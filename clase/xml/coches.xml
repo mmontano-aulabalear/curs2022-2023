@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche>
+        <nombre>Citroën 1X</nombre>
+        <fabricante>Citroën</fabricante>
+    </coche>
+    <coche>
+        <nombre>Zentorno</nombre>
+        <fabricante>Ferrari</fabricante>
+    </coche>
+    <coche>
+        <nombre>Divo</nombre>
+        <fabricante>Bugatti</fabricante>
+    </coche>
+</coches>

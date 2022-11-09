@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+    <habitación>
+        <tipo>Individual</tipo>
+        <precio>
+            <persona>Adulto 10€/noche</persona>
+            <persona>Menor 8€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Doble</tipo>
+        <precio>
+            <persona>Adulto 20€/noche</persona>
+            <persona>Menor 18€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Single Deluxe</tipo>
+        <precio>
+            <persona>Adulto 30€/noche</persona>
+            <persona>Menor 28€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Double Deluxe</tipo>
+        <precio>
+            <persona>Adulto 40€/noche</persona>
+            <persona>Menor 38€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Suite Regular</tipo>
+        <precio>
+            <persona>Adulto 60€/noche</persona>
+            <persona>Menor 58€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Suite Penthouse</tipo>
+        <precio>
+            <persona>Adulto 80€/noche</persona>
+            <persona>Menor 78€/noche</persona>
+        </precio>
+    </habitación>
+    <habitación>
+        <tipo>Suite Presidencial</tipo>
+        <precio>
+            <persona>Adulto 100€/noche</persona>
+            <persona>Menor 98€/noche</persona>
+        </precio>
+    </habitación>
+</hotel>

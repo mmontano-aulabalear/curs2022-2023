@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<semana>
+    <lunes>
+        <predicción>Intervalos Nubosos</predicción>
+    </lunes>
+    <martes>
+        <predicción>Intervalos Nubosos</predicción>
+    </martes>
+    <miercoles>
+        <predicción>Llovizna</predicción>
+    </miercoles>
+    <jueves>
+        <predicción>Cubierto</predicción>
+    </jueves>
+    <viernes>
+        <predicción>Poco Nuboso</predicción>
+    </viernes>
+    <sabado>
+        <predicción>Despejado</predicción>
+    </sabado>
+    <domingo>
+        <predicción>Poco Nuboso</predicción>
+    </domingo>
+</semana>

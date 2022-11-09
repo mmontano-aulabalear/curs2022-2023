@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamento>
+    <finanzas>
+        <!--No se me ocurria que tipo de datos harian falta para
+        cada empleado-->
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>45882343P</dni>
+            <telefono>638495406</telefono>
+        </empleado>
+    </finanzas>
+    <recursos_humanos>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>19382343D</dni>
+            <telefono>647382349</telefono>
+        </empleado>
+    </recursos_humanos>
+    <marketing>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>49382343D</dni>
+            <telefono>628394453</telefono>
+        </empleado>
+    </marketing>
+    <comercial>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>49382343D</dni>
+            <telefono>698473823</telefono>
+        </empleado>
+    </comercial>
+    <compras>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>49382435X</dni>
+            <telefono>623483734</telefono>
+        </empleado>
+    </compras>
+    <logística>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>98382435L</dni>
+            <telefono>647384273</telefono>
+        </empleado>
+    </logística>
+    <administración>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>67382435A</dni>
+            <telefono>648394540</telefono>
+        </empleado>
+    </administración>
+    <dirección>
+        <empleado>
+            <nombre>Ejemplo</nombre>
+            <dni>49387335K</dni>
+            <telefono>647394590</telefono>
+        </empleado>
+    </dirección>
+</departamento>
