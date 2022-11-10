@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas_favoritas>
+    <pelicula codigo="1" tipo="ciencia ficción/drama" año="2021">
+        <nombre>Finch</nombre>
+        <director>Miguel Sapochnik</director>
+        <url>https://es.wikipedia.org/wiki/Finch_(pel%C3%ADcula)</url>
+    </pelicula>
+    <pelicula codigo="2" tipo="" año="acción/suspenso">
+        <nombre>Election:La noche de las bestias</nombre>
+        <director>James DeMonaco</director>
+        <url>https://es.wikipedia.org/wiki/The_Purge:_Election_Year</url>
+    </pelicula>
+    <pelicula codigo="3" tipo="terror/acción" año="2016">
+        <nombre>Tren a busan</nombre>
+        <director>Yeong Sang-oh</director>
+        <url>https://es.wikipedia.org/wiki/Train_to_Busan</url>
+    </pelicula>
+    <pelicula codigo="4" tipo="ciencia ficción/ciencia" año="2009">
+        <nombre>Distrito 9</nombre>
+        <director>Neil Blomkamp</director>
+        <url>https://es.wikipedia.org/wiki/District_9</url>
+    </pelicula>
+    <pelicula codigo="5" tipo="terror/suspenso" año="2008">
+        <nombre>La Niebla</nombre>
+        <director>Frank Darabont</director>
+        <url>https://es.wikipedia.org/wiki/The_Mist</url>
+    </pelicula>
+</peliculas_favoritas>
