@@ -18,7 +18,7 @@ $altura=isset($_GET["altura"]) ? $_GET["altura"] : "";$a=(int)$base*(int)$altura
    </form>
   </div>
   <?php if ($base!="" &  $altura!=""){
-    echo "<hr>La altura es: <strong>".$a;
+    echo "<hr>El area es: <strong>".$a;
   }?>
  </body>
 </html>
