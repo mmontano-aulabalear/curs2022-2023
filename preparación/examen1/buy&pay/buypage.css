@@ -1,8 +1,11 @@
 body{
-  background-image: url(https://img.freepik.com/free-photo/abstract-blur-supermarket_1339-4661.jpg?w=1380&t=st=1668450172~exp=1668450772~hmac=e5e95e8ef2f553af3d934de0cb24456023f38bd68727c8990ee3180c70f36e12);
-  background-size: 1280px 720px;
+    background-image: url(https://img.freepik.com/premium-photo/empty-top-wooden-table-with-supermarket-blur-background_36051-467.jpg);
+    background-size: 120rem 67.5rem;
+    background-size: cover;
+    width: min-content max-content;
 }
-
-#1{
-  size: 10px;
+.center{
+    margin: 40% 50%;
+    size: 2rem;
+    background-color: rebeccapurple;
 }
