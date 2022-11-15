@@ -14,6 +14,7 @@
           <th scope="col">ZONE</th>
           <th scope="col">LIGHT</th>
           <th scope="col">AVAILABILITY</th>
+          <th scope="col">IMAGE</th>
           </tr>
         </thead>
       <tbody>
@@ -26,7 +27,8 @@ foreach($xml->PLANT as $plant){
   echo "<td>".$plant->BOTANICAL."</td>";
   echo "<td>".$plant->ZONE."</td>";
   echo "<td>".$plant->LIGHT."</td>";
-  echo "<td>".$plant->AVAILABILITY."</td></tr>";
+  echo "<td>".$plant->AVAILABILITY."</td>";
+  echo "<td><img src=$plant->IMAGE width=96 height=96></td></tr>";
 } ?>
         </tbody>
       </tr>
