@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+ <student id="1">
+   <name age="35">Juan Lluís</name>
+   <subject>Informàtica</subject>
+   <gender>M</gender>
+ </student>
+ <student id="2">
+   <name age="33">Joana</name>
+   <subject>Ciències</subject>
+   <gender>M</gender>
+ </student>
+ <student id="3">
+   <name age="36">Maria</name>
+   <subject>Arts</subject>
+   <gender>F</gender>
+  </student>
+  <student id="10">
+    <name age="25">Pere</name>
+    <subject>Matemàtiques</subject>
+    <gender>M</gender>
+  </student>
+</students>
