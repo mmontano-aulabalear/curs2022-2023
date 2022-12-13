@@ -2,47 +2,52 @@
 <html>
 
 <head>
-    <?php include "include/header.php" ?>
+    <?php include "../include/header.php" ?>
     <!-- Required meta tags -->
 
     <!-- El teu css -->
     <style></style>
     <!-- fi -->
-    <title>Llistat de Marques</title>
+    <title>Llistat de Clientes</title>
 </head>
 
 <body>
 
     <?php
-    include "include/db.php";
+    include "../include/db.php";
     ?>
     <div class="container">
         <?php
-        include "include/navbar.php";
+        include "../include/navbar.php";
         ?>
         <div class="row">
             <div class="col">
-                <h2>Llistat de marques</h2>
+                <h2>Llistat de clients</h2>
                 <hr>
 
                 <table class="table table-striped">
                     <thead class="thead-dark">
                         <tr>
-                            <th>Nom</th>
-                            <th></th>
-                            <th>Año</th>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Telefono</th>
+                            <th>CP</th>
+                            <th>email</th>
                         </tr>
                     </thead>
 
                     <?php
                     /* Recuperam els registres */
 
-                    $sql = "select * from marques";
+                    $sql = "select * from clientes";
                     foreach ($pdo->query($sql) as $row) {
-                        $nom = $row['nom'];
-                        $uuid = $row['uuid'];
+                        $nombre = $row['nombre'];
+                        $apellido = $row['apellido'];
+                        $telefono = $row['telefono'];
+                        $cp = $row['cp'];
+                        $email = $row['email'];
                         echo "<tr><td>$nom</td>";
-                        echo "<td><a href='edit.php?id=$uuid'>";
+                        echo "<td><a href='edit.php?id=$id'>";
                     ?>
 
                         <button type="button" class="btn btn-primary">Editar</button>
@@ -57,11 +62,11 @@
                     }
                     ?>
                 </table>
-                <div><a href="edit.php"><button type="button" class="btn btn-info">Nova marca</button></a></div>
+                <div><a href="edit.php"><button type="button" class="btn btn-info">Nuevo Cliente</button></a></div>
             </div>
         </div>
     </div>
-    <?php include "include/footer.php" ?>
+    <?php include "../include/footer.php" ?>
 </body>
 
 </html>

@@ -2,8 +2,8 @@
 <html>
 
     <head>
-        <title>Mantenimient de marques</title>
-        <?php include "include/header.php" ?>
+        <title>Mantenimient de clientes</title>
+        <?php include "../include/header.php" ?>
         <meta content="noindex, nofollow" name="robots">
         <!--== Include CSS File Here ==-->
     </head>
@@ -11,13 +11,13 @@
     <body>
 
         <?php
-include "include/db.php";
+include "../include/db.php";
 
 $nom="";
 $uuid="";
 if (isset($_GET['id'])){
   $id = $_GET['id'];
-  $statement = $pdo->prepare("SELECT * FROM marques where uuid=?");
+  $statement = $pdo->prepare("SELECT * FROM clientes where id=?");
   $statement->bindParam(1, $id);
   if ($statement->execute()) {
 
@@ -37,13 +37,11 @@ if (isset($_GET['id'])){
             <div class="first">
                 <h2> Marques</h2>
                 <form action="edit.php" id="#form" method="post" name="#form">
-                    <label>Nom de la marca :</label>
-                    <input id="name" name="nom" placeholder='Nom de la Marca' type='text' value="<?php echo $nom ?> ">
+                    <label>Nombre del cliente:</label>
+                    <input id="name" name="nombre" placeholder='Nom del Cliente' type='text' value="<?php echo $nombre ?> ">
                     <input type="hidden" id="uuidId" name="uuid" value="<?php echo $uuid ?>">
-                    <br>
-                    <label>Imagen:</label> <img src="data:image/jpg;charset=utf8;base64,"<?php echo base64_encode($row['image']); ?>>
-                    <input id='btn' name="submit" type='submi' value='Guardar'>
-                    
+                    <input id='btn' name="submit" type='submit' value='Guardar'>
+
                     <?php
 if(isset($_POST['submit'])){
     // Fetching variables of the form which travels in URL
@@ -68,7 +66,7 @@ if(isset($_POST['submit'])){
                 </form>
             </div>
         </div>
-        <?php include "include/footer.php" ?>
+        <?php include "../include/footer.php" ?>
     </body>
 
 </html>

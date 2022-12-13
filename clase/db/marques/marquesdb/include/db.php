@@ -13,5 +13,4 @@ En una aplicació real, les claus han d'estar a variables d'entorn.
 */
 
 $pdo = new PDO('mysql:host=localhost;dbname=concesionario;charset=utf8', 'root', '');
-
 ?>

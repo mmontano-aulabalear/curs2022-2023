@@ -14,6 +14,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="edit.php">Nova</a>
                         <a class="dropdown-item" href="index.php">Llistar</a>
+                        <a class="dropdown-item" href="clientes/clientes.php">Clientes</a>
                     </ul>
                 </li>
             </ul>

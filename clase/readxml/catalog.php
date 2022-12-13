@@ -22,7 +22,7 @@
 $negopo=0;
 foreach($xml->PLANT as $plant){
   $negopo++;
-  echo "<tr>";echo "<th scope=\"row\">$negopo</th>";
+  echo '<tr>" "<th scope="row">$negopo</th>';
   echo "<td>".$plant->COMMON."</td>";
   echo "<td>".$plant->BOTANICAL."</td>";
   echo "<td>".$plant->ZONE."</td>";
