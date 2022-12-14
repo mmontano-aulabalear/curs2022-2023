@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+  <job>
+    <name>Software Engineer</name>
+    <location>New York, USA</location>
+    <time>Full Time</time>
+    <salary>$123 - $456</salary>
+    <dateline>01 Jan, 2045</dateline>
+    <image>./img/com-logo-1.jpg</image>
+  </job>
+  <job>
+    <name>Marketing Manager</name>
+    <location>New York, USA</location>
+    <time>Full Time</time>
+    <salary>$123 - $456</salary>
+    <dateline>01 Jan, 2045</dateline>
+    <image>./img/com-logo-2.jpg</image>
+  </job>
+  <job>
+    <name>Product Designer</name>
+    <location>New York, USA</location>
+    <time>Full Time</time>
+    <salary>$123 - $456</salary>
+    <dateline>01 Jan, 2045</dateline>
+    <image>./img/com-logo-3.jpg</image>
+  </job>
+  <job>
+    <name>Creative Director</name>
+    <location>New York, USA</location>
+    <time>Full Time</time>
+    <salary>$123 - $456</salary>
+    <dateline>01 Jan, 2045</dateline>
+    <image>./img/com-logo-4.jpg</image>
+  </job>
+  <job>
+    <name>Wordpress Developer</name>
+    <location>New York, USA</location>
+    <time>Full Time</time>
+    <salary>$123 - $456</salary>
+    <dateline>01 Jan, 2045</dateline>
+    <image>./img/com-logo-5.jpg</image>
+  </job>
+  <job>
+    <name>Programador Front</name>
+    <location>Palma</location>
+    <time>Jornada Parcial</time>
+    <salary>$120-$150</salary>
+    <dateline>12-dic-2022</dateline>
+    <image>./img/com-logo-6.jpg</image>
+  </job>
+  <job>
+    <name>Técnico de sistemas</name>
+    <location>Sineu</location>
+    <time>Full Time</time>
+    <salary>$200-$250</salary>
+    <dateline>05-dic-2022</dateline>
+    <image>./img/com-logo-7.jpg</image>
+  </job>
+</jobs>
